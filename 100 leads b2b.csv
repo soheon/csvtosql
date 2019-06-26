@@ -1,0 +1,101 @@
+FirstName;LastName;Phone;Address;City;State;County;Zip;Age;Email;Timezone;Gender
+LEON;KIDD;2565571126;587 County Road 271;Fort Payne;AL;DeKalb;35967;58;kiddl60@yahoo.com;Central Time Zone;Male
+MIKE;SURLES;3343228711;706 Lower Kingston Rd;Prattville;AL;Autauga;36067;58;williamsurles@att.net;Central Time Zone;Male
+ERIC;KRAMER;2564732452;2104 Wynchase Dr;Prattville;AL;Autauga;36067;47;elkramer1@hotmail.com;Central Time Zone;Male
+JAMES;TOWNSEND;2059074250;525 Tower St;Daviston;AL;Tallapoosa;36256;51;sandybh@charter.net;Central Time Zone;Unknown
+CLAY;CHAPMAN;2564945421;923 Colquitt St;Gadsden;AL;Etowah;35903;29;chap4@comcast.net;Central Time Zone;Male
+DANIEL;HALLMAN;3342208159;2700 Cherry St;Montgomery;AL;Montgomery;36107;84;hallman_41@yahoo.com;Central Time Zone;Male
+MINNIE;CURRY;3344461112;746 S Saint Andrews St;Dothan;AL;Houston;36301;59;ladycurry@msn.com;Central Time Zone;Female
+JIMMIE;GREATHOUSE;2568259769;98 Greathouse Rd;Jacksons Gap;AL;Tallapoosa;36861;78;jimmieg5015@msn.com;Central Time Zone;Male
+CECIL;GOODWIN;2519572587;7345 Foxland Dr;Irvington;AL;Mobile;36544;40;cecilgoodwin1967@yahoo.com;Central Time Zone;Male
+CHARLES;NORRIS;2515835039;PO Box 125;Fulton;AL;Clarke;36446;53;cmnorris89@gmail.com;Central Time Zone;Male
+EDWARD;MONROE;2517526323;PO Box 180;Orange Beach;AL;Baldwin;36561;76;obhardware@hotmail.com;Central Time Zone;Male
+TERESA;PAINTER;;7600 Linda Smith Dr;Theodore;AL;Mobile;36582;57;jettiepainter791@hotmail.com;Central Time Zone;Female
+RICHARD;CRENSHAW;2515800178;400 Townsend Ave;Bay Minette;AL;Baldwin;36507;58;nickinalabama@aol.com;Central Time Zone;Male
+PATRICK;LILLY;2512297258;130 Lincoln Blvd;Mobile;AL;Mobile;36608;70;bigbaby2@comcast.net;Central Time Zone;Male
+TAVARA;EDWARDS;2056579324;228 Creekstone Trl;Calera;AL;Shelby;35040;46;vara05@yahoo.com;Central Time Zone;Unknown
+MATTHEW;MAXWELL;2564128082;630 Mill Creek Loop;Cherokee;AL;Colbert;35616;50;kristinecornellmaxwell14@gmail.com;Central Time Zone;Male
+CRYSTAL;TERRELL;2052822469;763 Neal Dr;Gurley;AL;Madison;35748;36;snikerz4@yahoo.com;Central Time Zone;Female
+MICHELLE;MOYER;2566170701;128 Springside Path;Harvest;AL;Madison;35749;49;jonathan.moyer2@yahoo.com;Central Time Zone;Female
+MARION;TALLMAN;2566530977;13553 Hatchett Rd E;Madison;AL;Madison;35757;57;hosinujelycy@hotmail.com;Central Time Zone;Unknown
+JOSH;MCADAMS;2517477707;21550 US Highway 98;Foley;AL;Baldwin;36535;36;joshmcadams2003@yahoo.com;Central Time Zone;Male
+ASHLEY;VINSON;2053542781;6003 Oak Grove Rd;Lineville;AL;Clay;36266;46;ashvinson@att.net;Central Time Zone;Female
+NELSON;MAHAFFEY;2564353992;491 McFall Rd;Jacksonville;AL;Calhoun;36265;68;chrisnels@msn.com;Central Time Zone;Male
+PEGGY;ROSWAL;;560 Prickett Trl;Jacksonville;AL;Calhoun;36265;67;andy_roswal@hotmail.com;Central Time Zone;Female
+PAT;WRIGHT;2562830231;708 Timber Way;Weaver;AL;Calhoun;36277;54;kalamityjadejr@aol.com;Central Time Zone;Unknown
+LOUREE;RICHARDSON;2564496315;21 County Road 625;Woodland;AL;Randolph;36280;73;loureerichardson@yahoo.com;Central Time Zone;Female
+JERRY;HAYWOOD;2564473399;602 W Hood St;Piedmont;AL;Calhoun;36272;76;tmbrwlf2000@bellsouth.net;Central Time Zone;Male
+LAWANA;HENRICH;3347143574;294 Leonard Dr;Dothan;AL;Houston;36301;57;lawanahenrich@gmail.com;Central Time Zone;Unknown
+ANN;TAYLOR;3348030766;104 Westview Dr;Dothan;AL;Houston;36301;55;arneciabenton@hotmail.com;Central Time Zone;Female
+MATT;TAYLOR;3349840060;2612 Ronald Ln;Dothan;AL;Houston;36303;72;guitarplayinteen@hotmail.com;Central Time Zone;Male
+LANE;BLANFORD;3348050431;1602 Burbank St;Dothan;AL;Houston;36303;48;laneblanford6263@gmail.com;Central Time Zone;Male
+JACKIE;PETTY;3347922975;1150 Fountain St;Dothan;AL;Houston;36303;69;jackiepetty7@yahoo.com;Central Time Zone;Unknown
+JEFF;OCHAB;3346776185;114 Elmwood Dr;Dothan;AL;Houston;36303;62;jochab@mindspring.com;Central Time Zone;Male
+WADE;THOMASTON;3347975675;106 Kensington Ct;Dothan;AL;Houston;36303;73;wadethomaston@yahoo.com;Central Time Zone;Male
+DARREN;STEWART;3346998909;212 Stonegate Dr;Dothan;AL;Houston;36305;46;hshabear@aol.com;Central Time Zone;Unknown
+BONNIE;BIRD;3346935281;502 Peachtree St;Headland;AL;Henry;36345;44;wanbird@yahoo.com;Central Time Zone;Female
+KACI;OWENS;3345852845;405 Ward Dr;Abbeville;AL;Henry;36310;36;cao2189@aol.com;Central Time Zone;Unknown
+APRIL;BECKEY;2054125151;696 12th Ave E;Guin;AL;Marion;35563;38;corkyandruth@yahoo.com;Central Time Zone;Female
+MISTY;WEEKS;2056989830;491 Moscow Rd;Sulligent;AL;Lamar;35586;40;mweeks3@yahoo.com;Central Time Zone;Female
+LORENE;DUNLAP;2564823903;1165 Bert Stinson Rd;Falkville;AL;Morgan;35622;95;lorene.dunlap@frontiernet.net;Central Time Zone;Female
+RONALD;HOPPER;2563451873;208 Mark St SW;Decatur;AL;Morgan;35601;2;beautifuldanes@yahoo.com;Central Time Zone;Male
+DALE;SIMS;2562296167;28077 County Line Rd NW;Anderson;AL;Lauderdale;35610;49;debw3@aol.com;Central Time Zone;Male
+DONALD;LAUDERDALE;2565201710;301 N Houston St;Athens;AL;Limestone;35611;80;sheila.lauderdale@gmail.com;Central Time Zone;Male
+STARR;COPELAND;2053814553;7495 Mount Mills Rd;Cherokee;AL;Colbert;35616;71;starrcopeland@yahoo.com;Central Time Zone;Female
+RONNIE;TERRY;2569740435;1011 County Road 72;Danville;AL;Morgan;35619;76;claron42@aol.com;Central Time Zone;Male
+TIMOTHY;ADAMS;2563669186;2365 Parc Pl;Florence;AL;Lauderdale;35630;77;timothya.adams@msn.com;Central Time Zone;Male
+ANKIT;GULATI;9013353653;1901 Holiday Dr;Florence;AL;Lauderdale;35630;35;ash.gulati@gmail.com;Central Time Zone;Male
+TONY;BLASINGAME;2564361324;9811 County Road 15;Florence;AL;Lauderdale;35633;2;asbrown81@gmail.com;Central Time Zone;Unknown
+BOBBIE;MILLER;3345245147;602 Camelot Way;Opelika;AL;Lee;36801;58;bjmjohn1413@aol.com;Central Time Zone;Unknown
+DONNA;VINSON;2563351442;3000 Lafayette Ave;Muscle Shoals;AL;Colbert;35661;51;andrey_vinson@yahoo.com;Central Time Zone;Female
+TERESA;CHURCH;;PO Box 373;Brookwood;AL;Tuscaloosa;35444;48;teresachurch1@yahoo.com;Central Time Zone;Female
+AMBER;HOPKINS;3342357441;1996 County Road 19 N;Prattville;AL;Autauga;36067;31;lilamber4you@yahoo.com;Central Time Zone;Female
+SHIRLEY;MCALPINE;2515991256;PO Box 91442;Mobile;AL;Mobile;36691;55;samsweety63@hotmail.com;Central Time Zone;Female
+ANDRE;HARRIS;3346492772;3103 Fairground Rd;Montgomery;AL;Montgomery;36110;74;dreday_208@hotmail.com;Central Time Zone;Male
+DEBORAH;HOOD;3347494749;500 Gwynnes Way;Opelika;AL;Lee;36804;62;brianhood57@yahoo.com;Central Time Zone;Unknown
+JODY;ATKINS;;717 Cottonton Rd;Pittsview;AL;Russell;36871;52;ang5627@yahoo.com;Central Time Zone;Unknown
+EDWARD;REID;3342149712;196 Clark Rd;Seale;AL;Russell;36875;77;gernkr@hotmail.com;Central Time Zone;Male
+CYNTHIA;RUFFIN;2054993633;PO Box 162;Pennington;AL;Choctaw;36916;37;ynvee99@hotmail.com;Central Time Zone;Female
+CINDY;WILLOUGHBY;3344447490;1512 Lee Road 374;Valley;AL;Chambers;36854;45;ka92tn95w@aol.com;Central Time Zone;Female
+CHRISTINE;WOMACK;2056614070;297 Markeeta Rd;Leeds;AL;Jefferson;35094;46;agirland2dogs@aim.com;Central Time Zone;Female
+CATHY;LAMBERT;2567677155;701 Main St;Waterloo;AL;Lauderdale;35677;63;lamb6157@yahoo.com;Central Time Zone;Female
+JERRY;CURTIN;3348572760;145 Poplar Dr;Eclectic;AL;Elmore;36024;80;jerrycurtin@gmail.com;Central Time Zone;Unknown
+MARGARET;WARD;3344193528;188 Evergreen Cir;Selma;AL;Dallas;36701;2;wwbodyman@gmail.com;Central Time Zone;Female
+JEROME;VALLADARES;2514609248;75 Hathaway Rd N;Mobile;AL;Mobile;36608;78;jerome.valladares@alltel.net;Central Time Zone;Male
+TUAJANA;NICHOLAS;2513426043;3900 San Juan Dr;Mobile;AL;Mobile;36609;44;rashadnicholas@yahoo.com;Central Time Zone;Unknown
+BELINDA;BOORTZ;2516450051;9090 Spice Pond Rd;Eight Mile;AL;Mobile;36613;68;belboortz@att.net;Central Time Zone;Female
+KERRIE;BERGAN;2283247756;2508 Legends Row;Mobile;AL;Mobile;36618;42;kbergan1@aol.com;Central Time Zone;Female
+JERRIE;WATSON;2516530660;6282 Woodside Dr N;Theodore;AL;Mobile;36582;58;watson123@earthlink.net;Central Time Zone;Male
+PAULA;JEFFERSON;2515102971;7341 Cherokee Trl W;Theodore;AL;Mobile;36582;55;pjeffers@mobile-gas.com;Central Time Zone;Female
+THOMAS;RAY;2516602607;4750 W Villa Dr;Theodore;AL;Mobile;36582;57;ashleyray01@hotmail.com;Central Time Zone;Male
+PEGGY;DALY;2515915810;1082 Southern Way;Mobile;AL;Mobile;36609;47;jkieran_daly@bellsouth.net;Central Time Zone;Female
+GERALD;PACE;;PO Box 214;Wagarville;AL;Washington;36585;46;lynnpace2002@yahoo.com;Central Time Zone;Male
+BECKY;BURT;2512324860;4695 Alma Dr;Wilmer;AL;Mobile;36587;65;bbbillpayer18@hotmail.com;Central Time Zone;Female
+PATRICIA;DUBOSE;2516751882;4082 Lafitte Rd;Saraland;AL;Mobile;36571;59;pad61259@yahoo.com;Central Time Zone;Female
+MELANIE;MURPHY;2513910910;400 Teakwood Dr;Satsuma;AL;Mobile;36572;40;purtieyes@aol.com;Central Time Zone;Female
+BILLY;BALLARD;2516752672;5466 Barbara Dr;Satsuma;AL;Mobile;36572;65;billy.ballard@msn.com;Central Time Zone;Male
+TRICIA;PIERCE;2517514012;4753 Gold Mine Rd E;Mobile;AL;Mobile;36619;62;annababe87@aol.com;Central Time Zone;Female
+FRED;MOORE;2515998667;9251 Abilene Dr S;Mobile;AL;Mobile;36695;69;fred61949@yahoo.com;Central Time Zone;Male
+ZOHAIR;HUSAIN;2515100852;7315 Bridgewood Ct;Mobile;AL;Mobile;36695;67;vercilius@hotmail.com;Central Time Zone;Unknown
+LAMEKA;NELSON;3348728394;2603 McDaniel Dr;Selma;AL;Dallas;36703;33;mutumbo34@yahoo.com;Central Time Zone;Unknown
+JON;HONEYCUTT;3348728083;537 County Road 81;Selma;AL;Dallas;36703;36;dhhoneycutt@hotmail.com;Central Time Zone;Male
+GRADY;MOONEY;3345730220;2696 County Road 29;Alberta;AL;Wilcox;36720;69;donnamooney2k7@yahoo.com;Central Time Zone;Male
+CANDACE;CARMICHAEL;3344196709;147 Wilkinson Apts;Selma;AL;Dallas;36703;29;bcarmichael68@yahoo.com;Central Time Zone;Female
+GOBENA;HULUKA;3345598229;973 Parklane Rd;Auburn;AL;Lee;36830;62;ghuluka@juno.com;Central Time Zone;Male
+BOBBIE;BARRON;;PO Box 1054;Opelika;AL;Lee;36803;73;angelsplane@aol.com;Central Time Zone;Unknown
+MAGGIE;LAWRY;3348879622;619 Tanglewood Ave;Auburn;AL;Lee;36832;71;mrocmloc@hotmail.com;Central Time Zone;Female
+TIM;LUCAS;;740 Arrowhead Rd;Dadeville;AL;Tallapoosa;36853;60;bettyl1657@hotmail.com;Central Time Zone;Male
+GARY;LOWE;3342574293;20001 Highway 49 S;Notasulga;AL;Macon;36866;69;gary.lowe@tampabay.rr.com;Central Time Zone;Male
+HARVEY;STEWART;3342981004;1603 McIntosh Creek Rd;Phenix City;AL;Russell;36867;62;hanks67chevy@yahoo.com;Central Time Zone;Male
+WAYNE;CALDWELL;3348648367;1064 County Road 63;Lafayette;AL;Chambers;36862;72;kaycaldwell33@yahoo.com;Central Time Zone;Male
+CLIFFORD;LOMAN;;69 Oak Tree Dr;Chelsea;AL;Shelby;35043;51;cliff.loman@live.com;Central Time Zone;Male
+PATRICIA;SYKES;;287 Clover Ln;Union Springs;AL;Bullock;36089;68;chrissykes708@gmail.com;Central Time Zone;Female
+SARAH;HEATH;2568473926;1516 Stone Creek Dr;Weaver;AL;Calhoun;36277;66;leeanthony1@bellsouth.net;Central Time Zone;Female
+SHIRLEY;MORGAN;2565579868;5436 County Road 83;Leesburg;AL;Cherokee;35983;72;diana1224@hotmail.com;Central Time Zone;Female
+ROBIN;KING;3346634811;284 Narrows Dr;Birmingham;AL;Shelby;35242;63;carolinablue013@yahoo.com;Central Time Zone;Unknown
+MELEA;HIGGINS;2564908782;616 Noccalula Dr;Gadsden;AL;Etowah;35904;38;melea.higgins@yahoo.com;Central Time Zone;Unknown
+CHRIS;AARON;7066816296;3011 S Railroad St;Phenix City;AL;Russell;36867;34;chris.aaron@aol.com;Central Time Zone;Unknown
+JESSICA;KILGORE;2566567005;PO Box 213;Ranburne;AL;Cleburne;36273;36;crazybabyjess@cs.com;Central Time Zone;Female
+NICOLE;ANDINO;3346737102;427 Orchard Cir;Dothan;AL;Houston;36305;42;nandino@yahoo.com;Central Time Zone;Female
+WAYNE;FEAGIN;2517143331;PO Box 333;Repton;AL;Conecuh;36475;34;azariafeagin@gmail.com;Central Time Zone;Male
+MICHELLE;HIXENBAUGH;8102410398;125 Mountain Pkwy;Maylene;AL;Shelby;35114;44;hixie00@gmail.com;Central Time Zone;Female
