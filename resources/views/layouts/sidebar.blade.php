@@ -2,7 +2,7 @@
 <style>
 .sidebar {
   height: 100%;
-  width: 320px;
+  width: 360px;
   position: fixed;
   z-index: 1;
   top: 0;

@@ -4,16 +4,6 @@
     
     <div class="form">
         <div class="form-group">
-            @if($data['dupdata']=='')
-                <h1 style="text-align: center;">Please Choose Export Data</h1>
-                
-            @else
-                <h1 style="text-align: center;">Duplicated Data</h1>
-            @endif
-
-        </div>
-
-        <div class="form-group">
             <button type="button" class="btn btn-info btn-lg" style= "" data-toggle="modal" data-target="#myModal">Export HTML table to CSV file</button>
         </div>
     </div>
@@ -37,43 +27,23 @@
                 </tr>
             </thead>
             <tbody>
-                @if($data['dupdata']=='')                    
-                    @foreach($data['csvdata'] as $user)
-                    <tr>
-                        <td>{{ $user->id }}</td>
-                        <td>{{ $user->firstname }}</td>
-                        <td>{{ $user->lastname }}</td>
-                        <td>{{ $user->phone }}</td>
-                        <td>{{ $user->address }}</td>
-                        <td>{{ $user->city }}</td>
-                        <td>{{ $user->state }}</td>
-                        <td>{{ $user->county }}</td>
-                        <td>{{ $user->zip }}</td>
-                        <td>{{ $user->age }}</td>
-                        <td>{{ $user->email }}</td>
-                        <td>{{ $user->timezone }}</td>
-                        <td>{{ $user->gender }}</td>
-                    </tr>
-                    @endforeach
-                @else
-                    @foreach($data['dupdata'] as $user)
-                    <tr>
-                        <td>{{ $user->id }}</td>
-                        <td>{{ $user->firstname }}</td>
-                        <td>{{ $user->lastname }}</td>
-                        <td>{{ $user->phone }}</td>
-                        <td>{{ $user->address }}</td>
-                        <td>{{ $user->city }}</td>
-                        <td>{{ $user->state }}</td>
-                        <td>{{ $user->county }}</td>
-                        <td>{{ $user->zip }}</td>
-                        <td>{{ $user->age }}</td>
-                        <td>{{ $user->email }}</td>
-                        <td>{{ $user->timezone }}</td>
-                        <td>{{ $user->gender }}</td>
-                    </tr>
-                    @endforeach
-                @endif
+                @foreach($data['csvdata'] as $user)
+                <tr>
+                    <td>{{ $user->id }}</td>
+                    <td>{{ $user->firstname }}</td>
+                    <td>{{ $user->lastname }}</td>
+                    <td>{{ $user->phone }}</td>
+                    <td>{{ $user->address }}</td>
+                    <td>{{ $user->city }}</td>
+                    <td>{{ $user->state }}</td>
+                    <td>{{ $user->county }}</td>
+                    <td>{{ $user->zip }}</td>
+                    <td>{{ $user->age }}</td>
+                    <td>{{ $user->email }}</td>
+                    <td>{{ $user->timezone }}</td>
+                    <td>{{ $user->gender }}</td>
+                </tr>
+                @endforeach
             </tbody>
             <tfoot>
                 <tr>
@@ -107,16 +77,10 @@
                         </div>
                         <div class="modal-body">
                             <p>File Name to Exprot</p>
-                            @if($data['dupdata']=='')
-                                <input type = "hidden" class= "" name = "bus" value="{{ $data['bus'] }}">
-                            
-                            @else
-                                <input type = "hidden" class= "" name = "bus" value="24">
-                            
-                            @endif
-                            <input type = "hidden" class = "" name = "area" value="{{ $data['area'] }}" />
+                            <input type = "text" class= "" name = "bus" value="{{ $data['bus'] }}">
+                            <input type = "text" class = "" name = "area" value="{{ $data['area'] }}" />
                             <input type = "text" class="" name = "exportName"/>
-                            <input type = "hidden" name = "exportId" id = "exportId"/>
+                            <input type = "text" name = "exportId" id = "exportId"/>
                         </div>
                         <div class="modal-footer">
                             <button type="submit" class="btn btn-default" >Export</button>

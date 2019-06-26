@@ -26,7 +26,7 @@ use App\swimming_pool_leads_database;
 use App\time_share_owner_database;
 use App\travelers_database;
 use App\veteran_houehold_database;
-use App\duplicate_database;
+
 
 use Illuminate\Http\Request;
 
@@ -57,14 +57,11 @@ class CsvController extends Controller
         // print_r($header);
         echo "<br>";
         $header_ar = [];
-
         $header_ar = explode(';', $header[0]);
         // print_r($header_ar);/
         $escapedHeader=[];
         array_push($escapedHeader, $header_ar);
         // echo "escapeHeader";
-        $email_ar = [];
-        
         while($columns = fgetcsv($file))
         {
             // echo "<br>";
@@ -92,192 +89,93 @@ class CsvController extends Controller
 
         switch ($bus) {
             case "1":
-                $csvflag = business_database::where(['Email'=>$email])->get();
-                if(!$csvflag)
                 $csvfile = business_database::firstOrNew(['Email'=>$email]);
-                else
-                $csvfile = duplicate_database::firstOrNew(['Email'=>$email]);
-                array_push($email_ar,$email);
-                
             break;
             case "2":
-                $csvflag = new_business::where(['Email'=>$email])->get();
-                if(!$csvflag)
                 $csvfile = new_business::firstOrNew(['Email'=>$email]);
-                else
-                $csvfile = duplicate_database::firstOrNew(['Email'=>$email]);
-                array_push($email_ar,$email);
             break;
             case "3":
-                $csvflag = consumers::where(['Email'=>$email])->get();
-                if(!$csvflag)
-                $csvfile = consumers::firstOrNew(['Email'=>$email]);
-                else
-                $csvfile = duplicate_database::firstOrNew(['Email'=>$email]);
-                array_push($email_ar,$email);
+            $csvfile = consumers::firstOrNew(['Email'=>$email]);
+
             break;
             case "4":
-                $csvflag = home_owners::where(['Email'=>$email])->get();
-                if(!$csvflag)
-                $csvfile = home_owners::firstOrNew(['Email'=>$email]);
-                else
-                $csvfile = duplicate_database::firstOrNew(['Email'=>$email]);
-                array_push($email_ar,$email);
+            $csvfile = home_owners::firstOrNew(['Email'=>$email]);
+
             break;
             case "5":
-                $csvflag = investors_database::where(['Email'=>$email])->get();
-                if(!$csvflag)
-                $csvfile = investors_database::firstOrNew(['Email'=>$email]);
-                else
-                $csvfile = duplicate_database::firstOrNew(['Email'=>$email]);
-                array_push($email_ar,$email);
+            $csvfile = investors_database::firstOrNew(['Email'=>$email]);
+
             break;
             case "6":
-                $csvflag = buyers_database::where(['Email'=>$email])->get();
-                if(!$csvflag)
-                $csvfile = buyers_database::firstOrNew(['Email'=>$email]);
-                else
-                $csvfile = duplicate_database::firstOrNew(['Email'=>$email]);
-                array_push($email_ar,$email);
+            $csvfile = buyers_database::firstOrNew(['Email'=>$email]);
+
             break;
             case "7":
-                $csvflag = insurance_database::where(['Email'=>$email])->get();
-                if(!$csvflag)
-                $csvfile = insurance_database::firstOrNew(['Email'=>$email]);
-                else
-                $csvfile = duplicate_database::firstOrNew(['Email'=>$email]);
-                array_push($email_ar,$email);
+            $csvfile = insurance_database::firstOrNew(['Email'=>$email]);
+
             break;
             case "8":
-                $csvflag = time_share_owner_database::where(['Email'=>$email])->get();
-                if(!$csvflag)
                 $csvfile = time_share_owner_database::firstOrNew(['Email'=>$email]);
-                else
-                $csvfile = duplicate_database::firstOrNew(['Email'=>$email]);
-                array_push($email_ar,$email);
+
             break;
             case "9":
-                $csvflag = internet_users::where(['Email'=>$email])->get();
-                if(!$csvflag)
                 $csvfile = internet_users::firstOrNew(['Email'=>$email]);
-                else
-                $csvfile = duplicate_database::firstOrNew(['Email'=>$email]);
-                array_push($email_ar,$email);
+
             break;
             case "10":
-                $csvflag = business_opportunity_leads::where(['Email'=>$email])->get();
-                if(!$csvflag)
-                $csvfile = business_opportunity_leads::firstOrNew(['Email'=>$email]);
-                else
-                $csvfile = duplicate_database::firstOrNew(['Email'=>$email]);
-                array_push($email_ar,$email);
+            $csvfile = business_opportunity_leads::firstOrNew(['Email'=>$email]);
+
             break;
             case "11":
-                $csvflag = medicare_opportunity_leads::where(['Email'=>$email])->get();
-                if(!$csvflag)
-                $csvfile = medicare_opportunity_leads::firstOrNew(['Email'=>$email]);
-                else
-                $csvfile = duplicate_database::firstOrNew(['Email'=>$email]);
-                array_push($email_ar,$email);
+            $csvfile = medicare_opportunity_leads::firstOrNew(['Email'=>$email]);
+
             break;
             case "12":
-                $csvflag = payday_loan_leads::where(['Email'=>$email])->get();
-                if(!$csvflag)
                 $csvfile = payday_loan_leads::firstOrNew(['Email'=>$email]);
-                else
-                $csvfile = duplicate_database::firstOrNew(['Email'=>$email]);
-                array_push($email_ar,$email);
+
             break;
             case "13":
-                $csvflag = hispanic_database::where(['Email'=>$email])->get();
-                if(!$csvflag)
                 $csvfile = hispanic_database::firstOrNew(['Email'=>$email]);
-                else
-                $csvfile = duplicate_database::firstOrNew(['Email'=>$email]);
-                array_push($email_ar,$email);
+
             break;
             case "14":
-                $csvflag = travelers_database::where(['Email'=>$email])->get();
-                if(!$csvflag)
-                $csvfile = travelers_database::firstOrNew(['Email'=>$email]);
-                else
-                $csvfile = duplicate_database::firstOrNew(['Email'=>$email]);
-                array_push($email_ar,$email);
+            $csvfile = travelers_database::firstOrNew(['Email'=>$email]);
+
             break;
             case "15":
-                $csvflag = pet_lovers_database::where(['Email'=>$email])->get();
-                if(!$csvflag)
                 $csvfile = pet_lovers_database::firstOrNew(['Email'=>$email]);
-                else
-                $csvfile = duplicate_database::firstOrNew(['Email'=>$email]);
-                array_push($email_ar,$email);
+
             break;
             case "16":
-                $csvflag = hige_tech_leaders_database::where(['Email'=>$email])->get();
-                if(!$csvflag)
                 $csvfile = hige_tech_leaders_database::firstOrNew(['Email'=>$email]);
-                else
-                $csvfile = duplicate_database::firstOrNew(['Email'=>$email]);
-                array_push($email_ar,$email);
+
             break;
             case "17":
-                $csvflag = professional_database::where(['Email'=>$email])->get();
-                if(!$csvflag)
                 $csvfile = professional_database::firstOrNew(['Email'=>$email]);
-                else
-                $csvfile = duplicate_database::firstOrNew(['Email'=>$email]);
-                array_push($email_ar,$email);
             break;
             case "18":
-                $csvflag = donors_database::where(['Email'=>$email])->get();
-                if(!$csvflag)
-                $csvfile = donors_database::firstOrNew(['Email'=>$email]);
-                else
-                $csvfile = duplicate_database::firstOrNew(['Email'=>$email]);
-                array_push($email_ar,$email);
+            $csvfile = donors_database::firstOrNew(['Email'=>$email]);
+
             break;
             case "19":
-                $csvflag = sms_leads::where(['Email'=>$email])->get();
-                if(!$csvflag)
                 $csvfile = sms_leads::firstOrNew(['Email'=>$email]);
-                else
-                $csvfile = duplicate_database::firstOrNew(['Email'=>$email]);
-                array_push($email_ar,$email);
             break;
             case "20":
-                $csvflag = swimming_pool_leads_database::where(['Email'=>$email])->get();
-                if(!$csvflag)
                 $csvfile = swimming_pool_leads_database::firstOrNew(['Email'=>$email]);
-                else
-                $csvfile = duplicate_database::firstOrNew(['Email'=>$email]);
-                array_push($email_ar,$email);
             break;
             case "21":
-                $csvflag = gamblers_database::where(['Email'=>$email])->get();
-                if(!$csvflag)
-                $csvfile = gamblers_database::firstOrNew(['Email'=>$email]);
-                else
-                $csvfile = duplicate_database::firstOrNew(['Email'=>$email]);
-                array_push($email_ar,$email);
+            $csvfile = gamblers_database::firstOrNew(['Email'=>$email]);
+
             break;
             case "22":
-                $csvflag = real_estate_database::where(['Email'=>$email])->get();
-                if(!$csvflag)
-                $csvfile = real_estate_database::firstOrNew(['Email'=>$email]);
-                else
-                $csvfile = duplicate_database::firstOrNew(['Email'=>$email]);
-                array_push($email_ar,$email);
+            $csvfile = real_estate_database::firstOrNew(['Email'=>$email]);
+
             break;
             case "23":
-                $csvflag = veteran_houehold_database::where(['Email'=>$email])->get();
-                if(!$csvflag)
                 $csvfile = veteran_houehold_database::firstOrNew(['Email'=>$email]);
-                else
-                $csvfile = duplicate_database::firstOrNew(['Email'=>$email]);
-                array_push($email_ar,$email);
             break;
         }
-            
+        if($csvfile){
             $csvfile->firstname = $firstname;
             $csvfile->lastname = $lastname;
             $csvfile->phone = $phone;
@@ -291,17 +189,15 @@ class CsvController extends Controller
             $csvfile->timezone = $timezone;
             $csvfile->gender = $gender;
             $csvfile->save();
-            
+        }
+    
     }
-    $dupdata = duplicate_database::all();
     $data = array(
-        'dupdata'=>$dupdata,
         'area'=>$area,
-        'bus'=>$bus,
-        'email_ar'=>$email_ar,
-        'csvdata'=>''
+        'bus'=>$bus
     );
-    return view('export')->with('data',$data);
+    return view('upload')->with('data',$data);
+        
     }
 
     public function exportForm(Request $request)
@@ -402,10 +298,8 @@ class CsvController extends Controller
             break;
         }
         $data = array(
-            'dupdata'=>'',
             'area'=>$area,
             'bus'=>$bus,
-            'email_ar'=>'',
             'csvdata'=>$csvfile
         );
         return view('export')->with("data", $data);
@@ -563,12 +457,6 @@ class CsvController extends Controller
             case "23":
                 foreach($export_arr as $value1){
                     $export_data=veteran_houehold_database::where('id',$value1)->first();
-                    array_push($enter_data,$export_data);
-                }
-            break;
-            case "24":
-                foreach($export_arr as $value1){
-                    $export_data=duplicate_database::where('id',$value1)->first();
                     array_push($enter_data,$export_data);
                 }
             break;

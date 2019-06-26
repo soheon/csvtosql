@@ -7,6 +7,18 @@ use Illuminate\Http\Request;
 
 class CsvController extends Controller
 {
+//     <!-- $user = new User;
+
+// $user->username = Input::get('username');
+// $user->email = Input::get('email');
+// $user->password = Hash::make(Input::get('password'));
+// $user->save();
+
+// return Redirect::back(); -->
+
+
+
+
     public function showForm(Request $request)
     {   
         
